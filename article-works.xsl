@@ -18,13 +18,11 @@
   </xsl:template>
 
   <!-- Convert all disallowed elements to paragraphs -->
-  <!-- XXX enable this template and the test will pass.
   <xsl:template match="node()">
     <p>
       <xsl:apply-templates />
     </p>
   </xsl:template>
-  -->
 
   <!-- Copy text -->
   <xsl:template match="text()">
